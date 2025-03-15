@@ -1,28 +1,13 @@
-# Solicitar como entrada dois números e depois vamos realizar uma operação simples entre eles.
+# Solicitar uma string e um número inteiro como entrada. Depois retornar a string repetida o número de vezes informado.
 
-# Solicita ao usuário que insira o primeiro número
-numero1 = float(input("Digite o primeiro número: "))
+# Solicita ao usuário que insira uma string
+string = input("Digite uma string: ")
 
-# Solicita ao usuário que insira o segundo número
-numero2 = float(input("Digite o segundo número: "))
+# Solicita ao usuário que insira um número inteiro
+numero = int(input("Digite um número inteiro: "))
 
-# Solicita ao usuário que escolha uma operação
-operacao = input("Escolha a operação (+, -, *, /): ")
-
-# Realiza a operação escolhida
-if operacao == '+':
-    resultado = numero1 + numero2
-elif operacao == '-':
-    resultado = numero1 - numero2
-elif operacao == '*':
-    resultado = numero1 * numero2
-elif operacao == '/':
-    if numero2 != 0:
-        resultado = numero1 / numero2
-    else:
-        resultado = "Erro: Divisão por zero!"
-else:
-    resultado = "Operação inválida!"
+# Repete a string o número de vezes informado
+resultado = string * numero
 
 # Exibe o resultado
-print(f"Resultado: {numero1} {operacao} {numero2} = {resultado}")
+print("Resultado:", resultado)
