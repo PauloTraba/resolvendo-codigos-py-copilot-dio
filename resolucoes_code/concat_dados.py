@@ -1,4 +1,4 @@
-# Receber dois dados diferentes do usuário e concatena-los em uma única string?!
+# Receber dois dados diferentes do usuário e concatena-los em uma única string.
 
 # Solicita ao usuário que insira o primeiro dado
 dado1 = input("Digite o primeiro dado: ")
